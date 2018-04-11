@@ -13,5 +13,5 @@ public protocol Dependency {
     
     func resolveWorker() -> UsersWorkerType
     func resolveStore() -> UsersStore
-    func resolveCache()e -> UsersStore
+    func resolveCache() -> UsersStore
 }
