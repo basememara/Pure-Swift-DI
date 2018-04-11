@@ -18,19 +18,19 @@
 		8B1F9FB2207E9AAC00F241ED /* MyCore_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1F9FA2207E9AAB00F241ED /* MyCore_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B1F9FB5207E9AAC00F241ED /* MyCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1F9FA0207E9AAB00F241ED /* MyCore.framework */; };
 		8B1F9FB6207E9AAC00F241ED /* MyCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1F9FA0207E9AAB00F241ED /* MyCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		8B1F9FD1207E9B2500F241ED /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC1207E9B2500F241ED /* HTTPService.swift */; };
-		8B1F9FD2207E9B2500F241ED /* HasDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC3207E9B2500F241ED /* HasDependencies.swift */; };
-		8B1F9FD3207E9B2500F241ED /* CoreDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC4207E9B2500F241ED /* CoreDependency.swift */; };
-		8B1F9FD4207E9B2500F241ED /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC5207E9B2500F241ED /* Dependency.swift */; };
-		8B1F9FD5207E9B2500F241ED /* UsersCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC8207E9B2500F241ED /* UsersCoreDataStore.swift */; };
-		8B1F9FD6207E9B2500F241ED /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FC9207E9B2500F241ED /* UsersWorker.swift */; };
-		8B1F9FD7207E9B2500F241ED /* UsersStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FCA207E9B2500F241ED /* UsersStoreInterfaces.swift */; };
-		8B1F9FD8207E9B2500F241ED /* UsersNetworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FCB207E9B2500F241ED /* UsersNetworkStore.swift */; };
-		8B1F9FD9207E9B2500F241ED /* UsersRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FCC207E9B2500F241ED /* UsersRealmStore.swift */; };
-		8B1F9FDA207E9B2500F241ED /* AuthenticationNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FCE207E9B2500F241ED /* AuthenticationNetworkService.swift */; };
-		8B1F9FDB207E9B2500F241ED /* AuthenticationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FCF207E9B2500F241ED /* AuthenticationWorker.swift */; };
-		8B1F9FDC207E9B2500F241ED /* AuthenticationStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FD0207E9B2500F241ED /* AuthenticationStoreInterfaces.swift */; };
 		8B1F9FDE207E9C5000F241ED /* TestDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FDD207E9C5000F241ED /* TestDependency.swift */; };
+		8B1F9FF1207EB7C800F241ED /* HTTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE1207EB7C700F241ED /* HTTPService.swift */; };
+		8B1F9FF2207EB7C800F241ED /* HasDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE3207EB7C700F241ED /* HasDependencies.swift */; };
+		8B1F9FF3207EB7C800F241ED /* CoreDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE4207EB7C700F241ED /* CoreDependency.swift */; };
+		8B1F9FF4207EB7C800F241ED /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE5207EB7C700F241ED /* Dependency.swift */; };
+		8B1F9FF5207EB7C800F241ED /* UsersCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE8207EB7C700F241ED /* UsersCoreDataStore.swift */; };
+		8B1F9FF6207EB7C800F241ED /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FE9207EB7C700F241ED /* UsersWorker.swift */; };
+		8B1F9FF7207EB7C800F241ED /* UsersStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FEA207EB7C700F241ED /* UsersStoreInterfaces.swift */; };
+		8B1F9FF8207EB7C800F241ED /* UsersNetworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FEB207EB7C700F241ED /* UsersNetworkStore.swift */; };
+		8B1F9FF9207EB7C800F241ED /* UsersRealmStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FEC207EB7C700F241ED /* UsersRealmStore.swift */; };
+		8B1F9FFA207EB7C800F241ED /* AuthenticationNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FEE207EB7C700F241ED /* AuthenticationNetworkService.swift */; };
+		8B1F9FFB207EB7C800F241ED /* AuthenticationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FEF207EB7C700F241ED /* AuthenticationWorker.swift */; };
+		8B1F9FFC207EB7C800F241ED /* AuthenticationStoreInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F9FF0207EB7C700F241ED /* AuthenticationStoreInterfaces.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,19 +86,19 @@
 		8B1F9FA8207E9AAB00F241ED /* MyCore iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyCore iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1F9FAF207E9AAC00F241ED /* MyCore_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCore_Tests.swift; sourceTree = "<group>"; };
 		8B1F9FB1207E9AAC00F241ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1F9FC1207E9B2500F241ED /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
-		8B1F9FC3207E9B2500F241ED /* HasDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasDependencies.swift; sourceTree = "<group>"; };
-		8B1F9FC4207E9B2500F241ED /* CoreDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDependency.swift; sourceTree = "<group>"; };
-		8B1F9FC5207E9B2500F241ED /* Dependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
-		8B1F9FC8207E9B2500F241ED /* UsersCoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCoreDataStore.swift; sourceTree = "<group>"; };
-		8B1F9FC9207E9B2500F241ED /* UsersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersWorker.swift; sourceTree = "<group>"; };
-		8B1F9FCA207E9B2500F241ED /* UsersStoreInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersStoreInterfaces.swift; sourceTree = "<group>"; };
-		8B1F9FCB207E9B2500F241ED /* UsersNetworkStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersNetworkStore.swift; sourceTree = "<group>"; };
-		8B1F9FCC207E9B2500F241ED /* UsersRealmStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersRealmStore.swift; sourceTree = "<group>"; };
-		8B1F9FCE207E9B2500F241ED /* AuthenticationNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationNetworkService.swift; sourceTree = "<group>"; };
-		8B1F9FCF207E9B2500F241ED /* AuthenticationWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationWorker.swift; sourceTree = "<group>"; };
-		8B1F9FD0207E9B2500F241ED /* AuthenticationStoreInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationStoreInterfaces.swift; sourceTree = "<group>"; };
 		8B1F9FDD207E9C5000F241ED /* TestDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDependency.swift; sourceTree = "<group>"; };
+		8B1F9FE1207EB7C700F241ED /* HTTPService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPService.swift; sourceTree = "<group>"; };
+		8B1F9FE3207EB7C700F241ED /* HasDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HasDependencies.swift; sourceTree = "<group>"; };
+		8B1F9FE4207EB7C700F241ED /* CoreDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDependency.swift; sourceTree = "<group>"; };
+		8B1F9FE5207EB7C700F241ED /* Dependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		8B1F9FE8207EB7C700F241ED /* UsersCoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCoreDataStore.swift; sourceTree = "<group>"; };
+		8B1F9FE9207EB7C700F241ED /* UsersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersWorker.swift; sourceTree = "<group>"; };
+		8B1F9FEA207EB7C700F241ED /* UsersStoreInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersStoreInterfaces.swift; sourceTree = "<group>"; };
+		8B1F9FEB207EB7C700F241ED /* UsersNetworkStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersNetworkStore.swift; sourceTree = "<group>"; };
+		8B1F9FEC207EB7C700F241ED /* UsersRealmStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersRealmStore.swift; sourceTree = "<group>"; };
+		8B1F9FEE207EB7C700F241ED /* AuthenticationNetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationNetworkService.swift; sourceTree = "<group>"; };
+		8B1F9FEF207EB7C700F241ED /* AuthenticationWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationWorker.swift; sourceTree = "<group>"; };
+		8B1F9FF0207EB7C700F241ED /* AuthenticationStoreInterfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationStoreInterfaces.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +165,7 @@
 		8B1F9FA1207E9AAB00F241ED /* MyCore iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FBF207E9B2500F241ED /* Sources */,
+				8B1F9FDF207EB7C700F241ED /* Sources */,
 				8B1F9FA2207E9AAB00F241ED /* MyCore_iOS.h */,
 				8B1F9FA3207E9AAB00F241ED /* Info.plist */,
 			);
@@ -182,61 +182,61 @@
 			path = "MyCore iOSTests";
 			sourceTree = "<group>";
 		};
-		8B1F9FBF207E9B2500F241ED /* Sources */ = {
+		8B1F9FDF207EB7C700F241ED /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FC2207E9B2500F241ED /* Dependencies */,
-				8B1F9FC0207E9B2500F241ED /* Network */,
-				8B1F9FC6207E9B2500F241ED /* Stores */,
+				8B1F9FE0207EB7C700F241ED /* Network */,
+				8B1F9FE2207EB7C700F241ED /* Dependencies */,
+				8B1F9FE6207EB7C700F241ED /* Stores */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		8B1F9FC0207E9B2500F241ED /* Network */ = {
+		8B1F9FE0207EB7C700F241ED /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FC1207E9B2500F241ED /* HTTPService.swift */,
+				8B1F9FE1207EB7C700F241ED /* HTTPService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		8B1F9FC2207E9B2500F241ED /* Dependencies */ = {
+		8B1F9FE2207EB7C700F241ED /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FC5207E9B2500F241ED /* Dependency.swift */,
-				8B1F9FC4207E9B2500F241ED /* CoreDependency.swift */,
-				8B1F9FC3207E9B2500F241ED /* HasDependencies.swift */,
+				8B1F9FE3207EB7C700F241ED /* HasDependencies.swift */,
+				8B1F9FE4207EB7C700F241ED /* CoreDependency.swift */,
+				8B1F9FE5207EB7C700F241ED /* Dependency.swift */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
 		};
-		8B1F9FC6207E9B2500F241ED /* Stores */ = {
+		8B1F9FE6207EB7C700F241ED /* Stores */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FCD207E9B2500F241ED /* Account */,
-				8B1F9FC7207E9B2500F241ED /* Users */,
+				8B1F9FE7207EB7C700F241ED /* Users */,
+				8B1F9FED207EB7C700F241ED /* Account */,
 			);
 			path = Stores;
 			sourceTree = "<group>";
 		};
-		8B1F9FC7207E9B2500F241ED /* Users */ = {
+		8B1F9FE7207EB7C700F241ED /* Users */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FCA207E9B2500F241ED /* UsersStoreInterfaces.swift */,
-				8B1F9FC8207E9B2500F241ED /* UsersCoreDataStore.swift */,
-				8B1F9FCB207E9B2500F241ED /* UsersNetworkStore.swift */,
-				8B1F9FCC207E9B2500F241ED /* UsersRealmStore.swift */,
-				8B1F9FC9207E9B2500F241ED /* UsersWorker.swift */,
+				8B1F9FE8207EB7C700F241ED /* UsersCoreDataStore.swift */,
+				8B1F9FE9207EB7C700F241ED /* UsersWorker.swift */,
+				8B1F9FEA207EB7C700F241ED /* UsersStoreInterfaces.swift */,
+				8B1F9FEB207EB7C700F241ED /* UsersNetworkStore.swift */,
+				8B1F9FEC207EB7C700F241ED /* UsersRealmStore.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
 		};
-		8B1F9FCD207E9B2500F241ED /* Account */ = {
+		8B1F9FED207EB7C700F241ED /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				8B1F9FD0207E9B2500F241ED /* AuthenticationStoreInterfaces.swift */,
-				8B1F9FCE207E9B2500F241ED /* AuthenticationNetworkService.swift */,
-				8B1F9FCF207E9B2500F241ED /* AuthenticationWorker.swift */,
+				8B1F9FEE207EB7C700F241ED /* AuthenticationNetworkService.swift */,
+				8B1F9FEF207EB7C700F241ED /* AuthenticationWorker.swift */,
+				8B1F9FF0207EB7C700F241ED /* AuthenticationStoreInterfaces.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -394,18 +394,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1F9FD3207E9B2500F241ED /* CoreDependency.swift in Sources */,
-				8B1F9FD5207E9B2500F241ED /* UsersCoreDataStore.swift in Sources */,
-				8B1F9FDA207E9B2500F241ED /* AuthenticationNetworkService.swift in Sources */,
-				8B1F9FD1207E9B2500F241ED /* HTTPService.swift in Sources */,
-				8B1F9FD8207E9B2500F241ED /* UsersNetworkStore.swift in Sources */,
-				8B1F9FD9207E9B2500F241ED /* UsersRealmStore.swift in Sources */,
-				8B1F9FDB207E9B2500F241ED /* AuthenticationWorker.swift in Sources */,
-				8B1F9FDC207E9B2500F241ED /* AuthenticationStoreInterfaces.swift in Sources */,
-				8B1F9FD4207E9B2500F241ED /* Dependency.swift in Sources */,
-				8B1F9FD6207E9B2500F241ED /* UsersWorker.swift in Sources */,
-				8B1F9FD2207E9B2500F241ED /* HasDependencies.swift in Sources */,
-				8B1F9FD7207E9B2500F241ED /* UsersStoreInterfaces.swift in Sources */,
+				8B1F9FF3207EB7C800F241ED /* CoreDependency.swift in Sources */,
+				8B1F9FF5207EB7C800F241ED /* UsersCoreDataStore.swift in Sources */,
+				8B1F9FFA207EB7C800F241ED /* AuthenticationNetworkService.swift in Sources */,
+				8B1F9FF1207EB7C800F241ED /* HTTPService.swift in Sources */,
+				8B1F9FF8207EB7C800F241ED /* UsersNetworkStore.swift in Sources */,
+				8B1F9FF9207EB7C800F241ED /* UsersRealmStore.swift in Sources */,
+				8B1F9FFB207EB7C800F241ED /* AuthenticationWorker.swift in Sources */,
+				8B1F9FFC207EB7C800F241ED /* AuthenticationStoreInterfaces.swift in Sources */,
+				8B1F9FF4207EB7C800F241ED /* Dependency.swift in Sources */,
+				8B1F9FF6207EB7C800F241ED /* UsersWorker.swift in Sources */,
+				8B1F9FF2207EB7C800F241ED /* HasDependencies.swift in Sources */,
+				8B1F9FF7207EB7C800F241ED /* UsersStoreInterfaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,10 +619,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8H936KUMG6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -635,6 +635,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.MyCore-iOS";
 				PRODUCT_NAME = MyCore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -647,10 +648,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8H936KUMG6;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -663,6 +664,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.MyCore-iOS";
 				PRODUCT_NAME = MyCore;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -675,7 +677,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MyCore iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -684,6 +687,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.MyCore-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pure Swift DI.app/Pure Swift DI";
@@ -694,7 +698,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "MyCore iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -703,6 +708,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.basememara.MyCore-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pure Swift DI.app/Pure Swift DI";
