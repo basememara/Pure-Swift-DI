@@ -6,19 +6,18 @@
 //
 
 import UIKit
+import MyCore
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, HasDependencies {
 
+    private lazy var authenticationWorker: AuthenticationWorkerType = dependencies.resolveWorker()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        authenticationWorker.login(with: "whatever") {
+            //completed
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
